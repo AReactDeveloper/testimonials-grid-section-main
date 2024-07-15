@@ -92,7 +92,7 @@ main {
   width: 12.5rem;
   height: 12.5rem;
   background-color: var(--clr-white);
-  mask: url("./../../images/bg-pattern-quotation.svg") no-repeat center;
+  mask: url("./../images/bg-pattern-quotation.svg") no-repeat center;
   opacity: 0.3;
   z-index: 1;
 }
