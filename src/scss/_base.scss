@@ -1,0 +1,26 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: var(--fz-primary);
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-primary);
+    background-color: var(--clr-light-grayish-blue);
+    color: var(--clr-light-grey);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+main {
+    height: 100%;
+    max-width: 1145px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 25px;
+    padding: 70px 24px;
+    
+}

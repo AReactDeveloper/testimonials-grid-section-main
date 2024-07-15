@@ -1,0 +1,37 @@
+.card-violet{
+    background-color: var(--clr-moderate-violet);
+    z-index: 0;
+    //this needed to position the after
+    //otherwise the after will be relative to the parent element
+    position: relative;
+}
+
+.card-violet::after{
+    content: '';
+    display: block;
+    position: absolute;
+    right: -1.563rem;
+    top: -2.5rem;
+    width: 12.5rem;
+    height: 12.5rem;
+    background-color: var(--clr-white);
+    mask:url('../../images/bg-pattern-quotation.svg') no-repeat center;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.card-dark-grayish-blue{
+    background-color: var(--clr-dark-grayish-blue);
+}
+
+.card-white{
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+
+}
+
+
+.card-dark-blackish-blue{
+    background-color: var(--clr-dark-grayish-blue);
+}
+
